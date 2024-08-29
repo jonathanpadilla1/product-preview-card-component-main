@@ -1,0 +1,208 @@
+
+html{
+    font-size: 18px;
+    font-optical-sizing: auto;
+    background-color: hsl(30, 38%, 92%);
+}
+
+@media only screen and (max-width: 749px) {
+    .component{
+        /* border: 1px solid red; */
+        /* display: flex; */
+        height: auto;
+        width: 90%;
+        margin: auto;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        border-radius: 15px;
+        background-color: white;
+    }
+    
+    .image{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .image img {
+        /* border: 1px solid red; */
+        height: 15em;
+        width: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+    
+    .text{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        /* padding-bottom: 1.8em; */
+    }
+
+    .component .text .perfume{
+        font-family: Montserrat, sans-serif;
+        font-size: 1em;
+        color: hsl(228, 12%, 48%);
+    }
+    .component .text .title{
+        font-family: Fraunces, sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: hsl(212, 21%, 14%);
+    }
+    .component .text .description{
+        font-family: Montserrat, sans-serif;
+        font-size: 1em;
+        margin-top: 1em;
+        margin-bottom: 0;
+        color: hsl(228, 12%, 48%);
+    }
+    .component .text .pricing-container{
+        display: flex;
+    }
+    .component .text .pricing-container .now{
+        font-family: Fraunces, sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 0em;
+        margin-top: .5em;
+        margin-right: .5em;
+        padding-bottom: 0em;
+        color: hsl(158, 36%, 37%);
+    }
+    .component .text .pricing-container .before{
+        font-family: Montserrat, sans-serif;
+        font-size: 1em;
+        margin-top: 0;
+        padding-top: 1.6em;
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+    }
+    .component .text .add{
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        text-align: center;
+        margin: auto;
+        margin-top: 1em;
+        padding: 1em;
+        width: 82%;
+        background-color: hsl(158, 36%, 37%);
+        border-radius: 15px;
+        color: white;
+        transition: .4s;
+        margin-bottom: 1em;
+    }
+
+    .component .text .add:hover {
+        box-shadow: inset 600px 0 0 0 hsl(212, 21%, 14%);
+    }
+    
+    .component .text .add:active {
+        transform: translateY(4px);
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .component{
+        /* border: 1px solid red; */
+        display: flex;
+        width: 50%;
+        height: auto;
+        min-width: 52em;
+        max-width: 52em;
+        margin: auto;
+        margin-top: 4em;
+        border-radius: 15px;
+        background-color: white;
+    }
+    
+    .image{
+        /* border: 1px solid red; */
+        width: 50%;
+        min-width: 50%;
+    }
+    
+    .image img {
+        /* border: 1px solid red; */
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    .text{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        /* max-width: 100%;
+        max-height: 100%; */
+        margin: 1.8em;
+    }
+
+    .component .text .perfume{
+        font-family: Montserrat, sans-serif;
+        font-size: 1.5em;
+        color: hsl(228, 12%, 48%);
+    }
+    .component .text .title{
+        font-family: Fraunces, sans-serif;
+        font-weight: bold;
+        font-size: 2.5em;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: hsl(212, 21%, 14%);
+    }
+    .component .text .description{
+        font-family: Montserrat, sans-serif;
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-bottom: 0;
+        color: hsl(228, 12%, 48%);
+    }
+    .component .text .pricing-container{
+        display: flex;
+    }
+    .component .text .pricing-container .now{
+        font-family: Fraunces, sans-serif;
+        font-weight: bold;
+        font-size: 2.5em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        color: hsl(158, 36%, 37%);
+    }
+    .component .text .pricing-container .before{
+        font-family: Montserrat, sans-serif;
+        font-size: 1.5em;
+        padding-top: 1.2em;
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+    }
+    .component .text .add{
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        margin: auto;
+        margin-top: 0;
+        padding: 1em;
+        width: 82%;
+        background-color: hsl(158, 36%, 37%);
+        border-radius: 15px;
+        color: white;
+        transition: .4s;
+    }
+
+    .component .text .add:hover {
+        box-shadow: inset 600px 0 0 0 hsl(212, 21%, 14%);
+    }
+    
+    .component .text .add:active {
+        transform: translateY(4px);
+    }
+    
+}
+
